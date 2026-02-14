@@ -68,3 +68,12 @@ body {
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
+@media (max-width: 480px) {
+  .card {
+    padding: 15px;
+  }
+
+  .image {
+    border-radius: 10px;
+  }
+}
